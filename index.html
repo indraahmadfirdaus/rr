@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>habede rara</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">HPY19</h2>
+        <div class="toggle"></div>
+      </header>
+
+      <video src="video/carousel1.mp4" muted loop autoplay></video>
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2>happy 19</h2>
+        <h3>barakallah fii umrik</h3>
+        <p>
+          selamat ulang tahun, best wishes for you, mudah-mudahan di tahun-tahun
+          kedepannya jadi tahun yang terbaik, semua cita-cita dan harapan bisa
+          dimudahkan semuanya, aamiin.
+        </p>
+        <a
+          href="https://drive.google.com/file/d/1keMvtUJM7uR1QNc7nCrz7fNnZam7tkSj/view?usp=sharing"
+          target="_blank"
+          >Klik coba</a
+        >
+      </div>
+      <ul class="social">
+        <li>
+          <a href="https://twitter.com/swarakepala" target="_blank"
+            ><img src="img/twitter.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/zahranijh/" target="_blank"
+            ><img src="img/instagram.png" alt=""
+          /></a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      });
+    </script>
+  </body>
+</html>
